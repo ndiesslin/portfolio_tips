@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Portfolio Survival Guide</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width">
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Oswald:700,400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" media="screen" href="./css/mobilemenu.css"/>
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+<script src="js/mq-events.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.sticky.js"></script>
+<script>
+  $(window).load(function(){
+    $("#sticker").sticky({ offset: 10 });
+  });
+</script>
+<script type="text/javascript">
+$(document).ready(function () { 
+
+$('#nav li').hover(
+  function () {
+    //show its submenu
+    $('ul', this).stop().slideDown(10);
+
+  }, 
+  function () {
+    //hide its submenu
+    $('ul', this).stop().slideUp(10);      
+  }
+);
+
+});
+</script>
+    <script>
+    $(document).ready(function(){
+      $(".nav-button").click(function () {
+      $(".nav-button,.primary-nav").toggleClass("open");
+      });    
+    });
+    </script>
+    </head>
+    <body>
+      <!-- <div id="condition" class="unmet"></div> -->
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+          <div id="header">
+                <div id="logo"><a href="index.html"><h1>Portfolio Tips</h1></a></div>
+                <button class="nav-button">Toggle Navigation</button>
+            <div id="left_sidebar">
+                <div id="navigation">
+                <ul id="nav" class="primary-nav">
+                    <li class="parent">
+                        <!-- RIBBON 1 -->
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">Design</div> <div class="ribbon-edge-topleft"></div><div class="ribbon-edge-topright"></div><div class="ribbon-edge-bottomleft"></div><div class="ribbon-edge-bottomright"></div><div class="ribbon-back-left"></div><div class="ribbon-back-right"></div>
+                        </div>
+                        <ul>
+                           <li class="black"><a href='aesthetic_design.html'>Aesthetic Design</a></li>
+                           <li class="black"><a href='aesthetic_design.html'>Typography</a></li>
+                           <li class="black"><a href='flow_charts.html'>Flow Charts</a></li>
+                          <li class="black"><a href='Wireframes_and_Mockups.html'>Wireframes and Mock-ups</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </li>
+                    <!-- RIBBON 2 -->
+                    <li class="parent">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">Front-End</div> <div class="ribbon-edge-topleft"></div><div class="ribbon-edge-topright"></div><div class="ribbon-edge-bottomleft"></div><div class="ribbon-edge-bottomright"></div><div class="ribbon-back-left"></div><div class="ribbon-back-right"></div>
+                        </div>
+                        <ul>
+                          <li class="black"><a href='web_standards.html'>Web Standards</a></li>
+                          <li class="black"><a href='grid_systems.html'>Grid Systems</a></li>
+                          <li class="black"><a href='responsive_design.html'>Responsive Design</a></li>
+                          <li class="black"><a href='media_queries.html'>Media Queries</a></li>
+                           <li class="black"><a href='html5.html'>HTML5</a></li>
+                           <li class="black"><a href='css.html'>CSS</a></li>
+                           <li class="black"><a href='seo.html'>SEO</a></li>
+                           <li class="black"><a href='favicons.html'>Favicons</a></li>
+                           <li class="black"><a href='404_pages.html'>404 Pages</a></li>
+                           <li class="black"><a href='javascript_jquery.html'>Javascript &amp; jQuery</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </li>
+                    <!-- RIBBON 3 -->
+                    <li class="parent">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-front">Back-End</div> <div class="ribbon-edge-topleft"></div><div class="ribbon-edge-topright"></div><div class="ribbon-edge-bottomleft"></div><div class="ribbon-edge-bottomright"></div><div class="ribbon-back-left"></div><div class="ribbon-back-right"></div>
+                        </div>
+                        <ul>
+                           <li class="black"><a href='hosting.html'>Hosting</a></li>
+                           <li class="black"><a href='ftp.html'>FTP</a></li>
+                           <li class="black"><a href='blocking_bots.html'>Blocking Bots</a></li>
+                           <li class="black"><a href='xml_sitemaps.html'>XML Sitemaps</a></li>
+                           <li class="black"><a href='forms.html'>Forms/PHP</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+          </div>
+            <div class="clearlist"></div>
+          <div id="content">
+              <h2>Welcome to PortfolioTips</h2>
+                <p>This site was built for WDIM Portfolio and Portfolio Prep students in order to get their portfolios ready for the job world. Select a skill area from the navigation to see a detailed explanation, and follow along in your own portfolio site.</p>
+
+                <p>On this site you can learn more information about good design, front-end development, and back-end development.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris libero libero, rutrum ac ornare ac, condimentum sit amet magna. Pellentesque tincidunt viverra varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend, metus eu ornare tincidunt, turpis est tincidunt lectus, a porttitor leo nisl et nunc. Curabitur arcu libero, congue ut facilisis in, interdum ornare neque. Aenean sed blandit ipsum. Pellentesque sollicitudin tincidunt urna.</p>
+
+            <p>Suspendisse potenti. Duis vel sem at elit luctus convallis. Fusce vel ipsum lectus, vel vehicula neque. Aenean varius felis a felis tristique sollicitudin. Pellentesque tellus tortor, pulvinar id vehicula ac, sollicitudin a erat. Pellentesque nec ultricies tortor. Vestibulum non semper arcu. Fusce eu nisl orci, vitae imperdiet justo. Ut a consequat lectus. Proin iaculis, dolor non imperdiet tincidunt, neque ante lobortis tellus, vitae eleifend velit massa nec urna. Vivamus posuere, odio quis pharetra ultricies, ipsum enim consequat urna, sed porttitor orci ipsum auctor risus. Morbi ut orci nunc. Phasellus hendrerit congue neque non volutpat.</p>
+
+            <p>In sed lectus dolor. Nulla mattis erat at lacus iaculis vitae interdum felis vehicula. Nulla varius elementum ornare. Vivamus fermentum lorem nibh. Aliquam ante ipsum, commodo rhoncus laoreet ut, auctor at urna. Proin in nibh elit. Etiam molestie vulputate risus a sagittis. Maecenas at dictum felis. Nunc ornare risus at odio varius ac lobortis neque hendrerit. Phasellus ac lacus non nulla mattis tincidunt. Sed felis sem, tristique ac malesuada non, porttitor ut nisl. In hac habitasse platea dictumst. Duis vulputate nisl eu sapien vestibulum tincidunt. Nulla cursus quam nec risus semper vel fringilla orci aliquet. </p>
+
+
+          </div>
+          <div id="right_sidebar">
+           <!--  <div id="sticker">
+                <div id="quiz">
+                </div>
+                <div class="ads"></div>
+                <div class="ads"></div>
+            </div> -->
+          </div>
+
+        <!-- Add your site or application content here -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+
+
+<script type="text/javascript">
+
+
+//     var dropdown=new TINY.dropdown.init("dropdown", {id:'menu', active:'menuhover'});
+
+</script>
+    </body>
+</html>
